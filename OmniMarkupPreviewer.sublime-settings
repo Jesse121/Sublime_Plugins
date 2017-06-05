@@ -1,0 +1,89 @@
+/* OmniMarkupPreviewer default setting, DO NOT MODIFY */
+{
+    "server_host": "127.0.0.1",
+    "server_port": 51004,
+    "refresh_on_modified": true,
+    // delay after modified, in milliseconds
+    "refresh_on_modified_delay": 500,
+    "refresh_on_saved": true,
+
+    // User defined command for launching preview in web browser
+    // For example:
+    //   Launching preview using Google Chrome in OS X:
+    //      ["open", "-a", "Google Chrome", "{url}"]
+    "browser_command": [],
+
+    // User public static files should be placed into
+    //   ${packages}/User/OmniMarkupPreviewer/public/
+    // User templates should be placed into:
+    //   ${packages}/User/OmniMarkupPreviewer/templates/
+    // Requires browser reload
+    // Built-in templates: github, github-v1
+    "html_template_name": "github",
+
+    // Polling interval for content changes in web browsers, in milliseconds
+    // Requires browser reload
+    "ajax_polling_interval": 500,
+
+    // list of renderers to be ignored, case sensitive.
+    // Valid renderers are: "CreoleRenderer", "MarkdownRenderer", "PodRenderer",
+    //     "RDocRenderer", "RstRenderer", "TextitleRenderer"
+    // for example, to disable Textile and Pod renderer:
+    //   "ignored_renderers": ["TextitleRenderer", "PodRenderer"]
+    "ignored_renderers": ["CreoleRenderer", "PodRenderer", "RDocRenderer","RstRenderer", "TextitleRenderer", "LiterateHaskellRenderer"],
+
+    // Enable MathJax (http://www.mathjax.org/)
+    // MathJax javascript libraries will downloaded automatically, it may take some while.
+    // When MathJax is properly installed into OmniMarkupPreviewer/public/mathjax, you
+    //   have to reload your browser to get mathjax work.
+    // KNOWN ISSUES:
+    //   * It may be slow base on your computer/browser performance, so you may want to
+    //     tune the following options:
+    //         "ajax_polling_interval", "refresh_on_modified" and "refresh_on_modified_delay"
+    "mathjax_enabled": false,
+
+    // Custom options for exporting
+    "export_options" : {
+        // follow "html_template_name" rules
+        // Built-in templates: github-export, github-v1-export
+        "template_name": "github-export",
+        // ".":  export to the same folder as markup file.
+        // null: export to system temp folder.
+        // NOTE: folder shall exist, or it will fallback to system temp folder.
+        "target_folder": ".",
+        // format string for filename timestamp
+        "timestamp_format" : "_%y%m%d%H%M%S",
+        "copy_to_clipboard": false,
+        // Open with default browser or whatever customized in "browser_command".
+        "open_after_exporting": false
+    },
+
+    // MarkdownRenderer options
+    "renderer_options-MarkdownRenderer": {
+        // Valid extensions:
+        // - OFFICIAL (Python Markdown) -
+        //   "extra": Combines ["abbr", "attr_list", "def_list", "fenced_code", "footnotes", "tables", "smart_strong"]
+        //            For PHP Markdown Extra(http://michelf.ca/projects/php-markdown/extra/)
+        //   "abbr": http://packages.python.org/Markdown/extensions/abbreviations.html
+        //   "attr_list": http://packages.python.org/Markdown/extensions/attr_list.html
+        //   "def_list": http://packages.python.org/Markdown/extensions/definition_lists.html
+        //   "fenced_code": http://packages.python.org/Markdown/extensions/fenced_code_blocks.html
+        //   "footnotes": http://packages.python.org/Markdown/extensions/footnotes.html
+        //   "tables": http://packages.python.org/Markdown/extensions/tables.html
+        //   "smart_strong": http://packages.python.org/Markdown/extensions/smart_strong.html
+        //   "codehilite": http://packages.python.org/Markdown/extensions/code_hilite.html
+        //   "meta": http://packages.python.org/Markdown/extensions/meta_data.html
+        //   "toc": http://packages.python.org/Markdown/extensions/toc.html
+        //   "nl2br": http://packages.python.org/Markdown/extensions/nl2br.html
+        // - 3RD PARTY -
+        //   "strikeout": Strikeout extension syntax - `This ~~is deleted text.~~`
+        //   "subscript": Subscript extension syntax - `This is water: H~2~O`
+        //   "superscript": Superscript extension syntax 0 `2^10^ = 1024`
+        //   "smarty" or "smartypants": Python-Markdown extension using smartypants to emit
+        //                   typographically nicer ("curly") quotes, proper
+        //                   ("em" and "en") dashes, etc.
+        //                   See: http://daringfireball.net/projects/smartypants/
+        //                   And: https://github.com/waylan/Python-Markdown/blob/master/docs/extensions/smarty.txt
+        "extensions": ["tables", "strikeout", "fenced_code", "codehilite"]
+    }
+}

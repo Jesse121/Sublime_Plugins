@@ -1,0 +1,11 @@
+{
+	"disabled_keymap_actions": "reflect_css_value",
+	"snippets": {
+		"html": {
+			"abbreviations": {
+				"example": "<div class='example' title='Custom element example'>",
+				"img": "<img src='' width='' height='' alt=''>"
+			}
+		}
+	},
+}

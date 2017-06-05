@@ -1,0 +1,25 @@
+{
+	"auto_complete_commit_on_tab": true,
+	"auto_indent": true,
+	"auto_match_enabled": true,
+	"color_scheme": "Packages/User/SublimeLinter/Monokai (SL).tmTheme",
+	"default_encoding": "UTF-8",
+	"draw_white_space": "all",
+	"fallback_encoding": "Western (Windows 1252)",
+	"fold_buttons": true,
+	"font_size": 14,
+	"gutter": true,
+	"highlight_line": true,
+	"highlight_modified_tabs": true,
+	"ignored_packages":
+	[
+		"Vintage"
+	],
+	"match_brackets_square": true,
+	"match_tags": true,
+	"show_encoding": true,
+	"spell_check": false,
+	"tab_size": 4,
+	"update_check": false,
+	"word_wrap": "auto"
+}

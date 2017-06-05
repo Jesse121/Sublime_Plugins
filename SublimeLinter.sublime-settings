@@ -1,0 +1,126 @@
+{
+    "user": {
+        "csslint_options": {
+            "adjoining-classes": "warning",
+            "box-model": true,
+            "box-sizing": "warning",
+            "compatible-vendor-prefixes": "warning",
+            "display-property-grouping": true,
+            "duplicate-background-images": "warning",
+            "duplicate-properties": true,
+            "empty-rules": true,
+            "errors": true,
+            "fallback-colors": "warning",
+            "floats": "warning",
+            "font-faces": "warning",
+            "font-sizes": "warning",
+            "gradients": "warning",
+            "ids": "warning",
+            "import": "warning",
+            "important": "warning",
+            "known-properties": true,
+            "outline-none": "warning",
+            "overqualified-elements": "warning",
+            "qualified-headings": "warning",
+            "regex-selectors": "warning",
+            "rules-count": "warning",
+            "shorthand": "warning",
+            "star-property-hack": "warning",
+            "text-indent": "warning",
+            "underscore-property-hack": "warning",
+            "unique-headings": "warning",
+            "universal-selector": "warning",
+            "vendor-prefix": true,
+            "zero-units": "warning",
+            "padding":false
+        },
+        "debug": true,
+        "delay": 0.25,
+        "error_color": "D02000",
+        "gutter_theme": "Packages/SublimeLinter/gutter-themes/Default/Default.gutter-theme",
+        "gutter_theme_excludes": [],
+        "jshint_options": {
+            "browser": true,
+            "curly": true,
+            "devel": true,
+            "eqeqeq": true,
+            "evil": true,
+            "forin": true,
+            "globals": {
+                "$": true,
+                "console": true,
+                "document": true,
+                "global": true,
+                "grunt": true,
+                "jQuery": true,
+                "module": true,
+                "setInterval": true,
+                "setTimeout": true,
+                "window": true
+            },
+            "jquery": true,
+            "latedef": true,
+            "noarg": true,
+            "noempty": true,
+            "quotmark": "single",
+            "strict": false,
+            "undef": true,
+            "unused": "vars",
+            "wsh": true
+        },
+        "lint_mode": "save only",
+        "linters": {
+            "csslint": {
+                "@disable": false,
+                "args": [],
+                "errors": "",
+                "excludes": [],
+                "ignore": "",
+                "warnings": ""
+            },
+            "jshint": {
+                "@disable": false,
+                "args": [],
+                "excludes": []
+            }
+        },
+        "mark_style": "fill",
+        "no_column_highlights_line": false,
+        "passive_warnings": true,
+        "paths": {
+            "linux": [],
+            "osx": [],
+            "windows": []
+        },
+        "python_paths": {
+            "linux": [],
+            "osx": [],
+            "windows": []
+        },
+        "rc_search_limit": 3,
+        "shell_timeout": 10,
+        "show_errors_on_save": true,
+        "show_marks_in_minimap": true,
+        "sublimelinter": "save-only",
+        "sublimelinter_executable_map": {
+            "css": "D:/nodejs/node.exe",
+            "javascript": "D:/nodejs/node.exe"
+        },
+        "sublimelinter_popup_errors_on_save": true,
+        "syntax_map": {
+            "html (django)": "html",
+            "html (rails)": "html",
+            "html 5": "html",
+            "javascript (babel)": "javascript",
+            "magicpython": "python",
+            "php": "html",
+            "python django": "python"
+        },
+        "tooltip_fontsize": "1rem",
+        "tooltip_theme": "Packages/SublimeLinter/tooltip-themes/Default/Default.tooltip-theme",
+        "tooltip_theme_excludes": [],
+        "tooltips": false,
+        "warning_color": "DDB700",
+        "wrap_find": true
+    }
+}

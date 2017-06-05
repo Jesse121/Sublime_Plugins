@@ -1,0 +1,31 @@
+{
+	"bootstrapped": true,
+	"in_process_packages":
+	[
+	],
+	"installed_packages":
+	[
+		"Alignment",
+		"AutoFileName",
+		"BracketHighlighter",
+		"CodeFormatter",
+		"ConvertToUTF8",
+		"DeleteBlankLines",
+		"DocBlockr",
+		"Emmet",
+		"HTML-CSS-JS Prettify",
+		"jQuery",
+		"LESS",
+		"MarkdownEditing",
+		"OmniMarkupPreviewer",
+		"Package Control",
+		"SCSS",
+		"SideBarEnhancements",
+		"SublimeCodeIntel",
+		"SublimeLinter",
+		"SublimeLinter-csslint",
+		"SublimeLinter-jshint",
+		"SublimeTmpl",
+		"View In Browser"
+	]
+}

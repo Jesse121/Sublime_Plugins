@@ -1,0 +1,29 @@
+<snippet>
+<content><![CDATA[
+/*MT css reset*/
+body,dl,dd,p,h1,h2,h3,h4,h5,h6{margin:0;}
+h1,h2,h3,h4,h5,h6{font-size:100%}   /*继承body设定的字体大小*/
+/* 根据屏幕大小改变文字大小 */
+html{font-size:20px;}  /*chorme下设置为10px无效，推荐设置为20px，1rem=20px*/
+@media screen and (max-width:768px){	/*手机屏幕*/
+html{font-size: 15px;}	
+}
+@media screen and (min-width: 768px) and (max-width:992px){  /*平板屏幕*/
+html{font-size: 20px;}
+}
+@media screen and (min-width: 992px){   /*电脑屏幕*/
+html{font-size: 25px;}
+}   
+body{font-family: "Droid Sans Fallback","Heiti SC","Droid Sans",Helvetica,"Helvetica Neue",sans-self; color:#555; background-color:#F7F7F7;}
+.clearfix:after{content:"."; display:block; visibility:hidden; height:0; clear:both;}   /*除去浮动*/
+a:hover{text-decoration: none;}
+ul,ol{list-style: none;margin:0;padding:0;} 
+img {max-width: 100%;height: auto;} /* 图片自适应 */
+fieldset,img{border:0}
+em,i{font-style: normal}  /*如需默认样式可修改*/
+button,input,select,textarea{vertical-align:middle;outline:none;}  /*出去获得焦点下的蓝色边框*/
+input::-webkit-input-placeholder,textarea::-webkit-input-placeholder {color: #ccc;}  /*修改placeholder文字颜色*/
+]]></content>
+<tabTrigger>cssRESET_mobile</tabTrigger>
+<scope>source.css</scope>
+</snippet>

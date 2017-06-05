@@ -1,0 +1,9 @@
+{
+	// Additional encodings to test when no acurrated guess can be done
+	"fallback_encodings": [], //example ["ISO-8859-1", "etc"]
+
+	// Automatically opens as UTF-8 the following encodings list
+	// NOTE: Encoding detection is not acurrated
+	// don't abuse of this feature
+	"open_automatically_as_utf8": ["GB2312"] //example ["GB2312", "ISO-8859-1"]
+}

@@ -2,7 +2,7 @@
 	"auto_complete_commit_on_tab": true,
 	"auto_indent": true,
 	"auto_match_enabled": true,
-	"color_scheme": "Packages/User/SublimeLinter/Monokai (SL).tmTheme",
+	"color_scheme": "Packages/User/SublimeLinter/Monokai Phoenix (SL).tmTheme",
 	"default_encoding": "UTF-8",
 	"draw_white_space": "all",
 	"fallback_encoding": "Western (Windows 1252)",
@@ -19,7 +19,9 @@
 	"match_tags": true,
 	"show_encoding": true,
 	"spell_check": false,
-	"tab_size": 4,
+	"tab_size": 2,
+	"translate_tabs_to_spaces": true,
 	"update_check": false,
+	"use_tab_stops": true,
 	"word_wrap": "auto"
 }

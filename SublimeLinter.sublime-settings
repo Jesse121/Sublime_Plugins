@@ -21,6 +21,7 @@
             "known-properties": true,
             "outline-none": "warning",
             "overqualified-elements": "warning",
+            "padding": false,
             "qualified-headings": "warning",
             "regex-selectors": "warning",
             "rules-count": "warning",
@@ -31,8 +32,7 @@
             "unique-headings": "warning",
             "universal-selector": "warning",
             "vendor-prefix": true,
-            "zero-units": "warning",
-            "padding":false
+            "zero-units": "warning"
         },
         "debug": true,
         "delay": 0.25,
@@ -79,7 +79,7 @@
                 "warnings": ""
             },
             "jshint": {
-                "@disable": false,
+                "@disable": true,
                 "args": [],
                 "excludes": []
             }

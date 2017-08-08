@@ -45,7 +45,7 @@
     { "keys": [ "ctrl+alt+j" ], "command": "sublime_tmpl","args": {"type": "js"}},
     { "keys": [ "ctrl+alt+p" ], "command": "sublime_tmpl","args": {"type": "php"}},
     { "keys": [ "ctrl+alt+s" ], "command": "sublime_tmpl","args": {"type": "sql"}},
-    { "keys": [ "ctrl+alt+m" ], "command": "sublime_tmpl","args": {"type": "markdown"}},
+    { "keys": [ "ctrl+alt+m" ], "command": "sublime_tmpl","args": {"type": "md"}},
     { "keys": [ "ctrl+alt+l" ], "command": "sublime_tmpl","args": {"type": "less"}},
     //{ "keys": [ "ctrl+alt+shift+p" ], "command": "sublime_tmpl","args": {"type": "python"}},
 

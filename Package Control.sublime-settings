@@ -12,7 +12,9 @@
 		"ConvertToUTF8",
 		"DeleteBlankLines",
 		"DocBlockr",
+		"EditorConfig",
 		"Emmet",
+		"ESLint",
 		"HTML-CSS-JS Prettify",
 		"jQuery",
 		"LESS",
@@ -22,9 +24,6 @@
 		"SCSS",
 		"SideBarEnhancements",
 		"SublimeCodeIntel",
-		"SublimeLinter",
-		"SublimeLinter-csslint",
-		"SublimeLinter-jshint",
 		"SublimeTmpl",
 		"View In Browser"
 	]
